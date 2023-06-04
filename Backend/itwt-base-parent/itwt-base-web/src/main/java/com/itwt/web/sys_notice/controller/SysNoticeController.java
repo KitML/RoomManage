@@ -55,7 +55,7 @@ public class SysNoticeController {
         return ResultUtils.error("删除失败!");
     }
 
-    //列表查询
+    //列表查询功能
     @GetMapping("/list")
     public ResultVo list(NoticeParm parm){
         //构造分页对象
