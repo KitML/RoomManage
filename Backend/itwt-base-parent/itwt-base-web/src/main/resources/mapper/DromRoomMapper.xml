@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itwt.web.drom_room.mapper.DromRoomMapper">
+
+    <select id="getRoomTree" resultType="com.itwt.web.drom_room.entity.RoomTree">
+        SELECT t.room_id, dr.room_code
+        FROM (SELECT a.*
+              FROM drom_room_bed AS a
+                       LEFT JOIN assign_bed AS b ON a.bed_id = b.bed_id
+              WHERE b.bed_id IS NULL) t
+                 LEFT JOIN drom_room AS dr ON dr.room_id = t.room_id
+        WHERE dr.storey_id = #{storeyId}
+        GROUP BY t.room_id, dr.room_code
+    </select>
+</mapper>

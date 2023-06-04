@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itwt.web.assign_bed.mapper.AssignBedMapper">
+
+    <select id="getRoomVoList" resultType="com.itwt.web.assign_bed.entity.RoomVo">
+        select dr.room_id, dr.room_code, dr.root_type
+        from (select drb.room_id
+              from assign_bed as ab
+                       left join drom_room_bed as drb on drb.bed_id = ab.bed_id
+              where ab.class_id = #{classId}
+              GROUP BY drb.room_id) t
+                 left join drom_room as dr on dr.room_id = t.room_id
+    </select>
+    <select id="getBedVoList" resultType="com.itwt.web.assign_bed.entity.BedVo">
+        select drb.bed_id, drb.bed_code
+        from assign_bed as ab
+                 left join drom_room_bed as drb on drb.bed_id = ab.bed_id
+        where drb.room_id = #{roomId}
+    </select>
+    <select id="getRoomByClassId" resultType="com.itwt.web.assign_bed.entity.SelectRoom">
+        SELECT dr.room_id, dr.room_code, dr.root_type, ab.class_id
+        FROM school_class as sc
+                 INNER JOIN assign_bed as ab on ab.class_id = sc.class_id
+                 INNER JOIN drom_room_bed as drb on drb.bed_id = ab.bed_id
+                 INNER JOIN drom_room as dr on dr.room_id = drb.room_id
+        WHERE sc.class_id = #{classId}
+        GROUP BY dr.room_id, dr.room_code, dr.root_type, ab.class_id
+    </select>
+    <select id="getBedByClassId" resultType="com.itwt.web.assign_bed.entity.SelectBed">
+        SELECT t.*, st.stu_name, sch.class_name
+        FROM (SELECT dr.room_id, drb.bed_id, drb.bed_code, dr.root_type, ab.class_id
+              FROM school_class as sc
+                       INNER JOIN assign_bed as ab on ab.class_id = sc.class_id
+                       INNER JOIN drom_room_bed as drb on drb.bed_id = ab.bed_id
+                       INNER JOIN drom_room as dr on dr.room_id = drb.room_id
+              WHERE sc.class_id = #{classId}
+                and dr.room_id = #{roomId}) t
+                 LEFT JOIN select_bed as sb on sb.bed_id = t.bed_id
+                 LEFT JOIN school_student as st on st.stu_id = sb.stu_id
+                 LEFT JOIN school_class as sch on sch.class_id = st.class_id
+        order by t.bed_code asc
+    </select>
+</mapper>

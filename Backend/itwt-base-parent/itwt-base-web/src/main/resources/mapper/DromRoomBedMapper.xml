@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itwt.web.drom_room_bed.mapper.DromRoomBedMapper">
+
+    <select id="getBedList" resultType="com.itwt.web.drom_room_bed.entity.DromRoomBed">
+        SELECT t.*
+        FROM (SELECT a.*
+              FROM drom_room_bed AS a
+                       LEFT JOIN assign_bed AS b ON a.bed_id = b.bed_id
+              WHERE b.bed_id IS NULL) t
+                 LEFT JOIN drom_room AS dr ON dr.room_id = t.room_id
+        WHERE dr.room_id = #{roomId}
+    </select>
+    <select id="getSelectBedList" resultType="com.itwt.web.drom_room_bed.entity.DromRoomVo">
+        SELECT drb.*,st.stu_id, st.stu_name, sc.class_name
+        FROM drom_room_bed as drb
+                 LEFT JOIN select_bed as sb on sb.bed_id = drb.bed_id
+                 LEFT JOIN school_student as st on st.stu_id = sb.stu_id
+                 LEFT JOIN school_class as sc on sc.class_id = st.class_id
+        WHERE drb.room_id = #{roomId}
+    </select>
+</mapper>

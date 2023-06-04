@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itwt.web.sys_menu.mapper.SysMenuMapper">
+
+    <select id="getMenuByUserId" resultType="com.itwt.web.sys_menu.entity.SysMenu">
+        SELECT m.*
+        FROM sys_user_role as ur
+                 LEFT JOIN sys_role as r on ur.role_id = r.role_id
+                 LEFT JOIN sys_role_menu as rm on r.role_id = rm.role_id
+                 LEFT JOIN sys_menu as m ON rm.menu_id = m.menu_id
+        WHERE ur.user_id = #{userId}
+--         order by m.order_num asc
+    </select>
+    <select id="getMenuByRoleId" resultType="com.itwt.web.sys_menu.entity.SysMenu">
+        SELECT m.*
+        FROM sys_role_menu as rm,
+             sys_menu as m
+        WHERE rm.menu_id = m.menu_id
+          AND rm.role_id = #{roleId}
+--         order by m.order_num asc
+    </select>
+    <select id="getStuMenuByUserID" resultType="com.itwt.web.sys_menu.entity.SysMenu">
+        SELECT m.*
+        FROM stu_role AS ur
+                 LEFT JOIN sys_role AS r ON ur.role_id = r.role_id
+                 LEFT JOIN sys_role_menu AS rm ON r.role_id = rm.role_id
+                 LEFT JOIN sys_menu AS m ON rm.menu_id = m.menu_id
+        WHERE ur.stu_id = #{stuId}
+    </select>
+</mapper>

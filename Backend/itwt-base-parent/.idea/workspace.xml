@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58a97cb2-aa50-4bd2-baa6-af8b066b0904" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8015eb57-8b2f-4115-93d0-bfbe5c205c78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8015eb57-8b2f-4115-93d0-bfbe5c205c78/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8015eb57-8b2f-4115-93d0-bfbe5c205c78/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8015eb57-8b2f-4115-93d0-bfbe5c205c78/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8015eb57-8b2f-4115-93d0-bfbe5c205c78/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/src/main/java/com/itwt/status/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/src/main/java/com/itwt/utils/ResultUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/src/main/java/com/itwt/utils/ResultVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/src/main/java/com/itwt/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/classes/com/itwt/status/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/classes/com/itwt/utils/ResultUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/classes/com/itwt/utils/ResultVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/classes/com/itwt/utils/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/itwt-base-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/BookApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/config/imagecode/ImageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/config/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/config/mybatis/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/config/web/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/exception_advice/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/exception_advice/BusinessExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/exception_advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/controller/ApplyChangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/entity/ApplyChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/entity/ApplyDoParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/entity/ApplyListParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/entity/ApplyParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/entity/StuInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/mapper/ApplyChangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/service/ApplyChangeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/apply_change/service/impl/ApplyChangeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/controller/AssignBedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/entity/AssignBed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/entity/BedVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/entity/ClearBed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/entity/RoomVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/entity/SelectBed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/entity/SelectRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/mapper/AssignBedMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/service/AssignBedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/assign_bed/service/impl/AssignBedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_build/controller/DromBuildController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_build/entity/BuildEcharts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_build/entity/BuildParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_build/entity/BuildVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_build/entity/DromBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_build/mapper/DromBuildMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_build/service/DromBuildService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_build/service/impl/DromBuildServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_into/controller/DromIntoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_into/entity/DromInto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_into/entity/DromIntoParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_into/mapper/DromIntoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_into/service/DromIntoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_into/service/impl/DromIntoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_leave/controller/DromLeaveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_leave/entity/DromLeave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_leave/entity/LeaveParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_leave/mapper/DromLeaveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_leave/service/DromLeaveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_leave/service/impl/DromLeaveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_look/controller/DromLookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_look/entity/DromLook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_look/entity/LookParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_look/mapper/DromLookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_look/service/DromLookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_look/service/impl/DromLookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_repair/controller/DromRepairController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_repair/entity/DromRepair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_repair/entity/RepairParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_repair/mapper/DromRepairMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_repair/service/DromRepairService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_repair/service/impl/DromRepairServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room/controller/DromRoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room/entity/DromRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room/entity/RoomListParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room/entity/RoomParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room/entity/RoomTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room/mapper/DromRoomMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room/service/DromRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room/service/impl/DromRoomServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room_bed/controller/DromRoomBedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room_bed/entity/DromRoomBed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room_bed/entity/DromRoomVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room_bed/mapper/DromRoomBedMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room_bed/service/DromRoomBedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_room_bed/service/impl/DromRoomBedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_storey/controller/DromStoreyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_storey/entity/DromStorey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_storey/mapper/DromStoreyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_storey/service/DromStoreyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/drom_storey/service/impl/DromStoreyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_class/controller/SchoolClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_class/entity/AssignClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_class/entity/AssignClassParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_class/entity/ListParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_class/entity/SchoolClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_class/mapper/SchoolClassMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_class/service/SchoolClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_class/service/impl/SchoolClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_collage/controller/SchoolCollageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_collage/entity/ListParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_collage/entity/SchoolCollage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_collage/mapper/SchoolCollageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_collage/service/SchoolCollageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_collage/service/impl/SchoolCollageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_major/controller/SchoolMajorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_major/entity/MajorList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_major/entity/SchoolMajor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_major/mapper/SchoolMajorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_major/service/SchoolMajorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_major/service/impl/SchoolMajorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_student/controller/SchoolStudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_student/entity/SchoolStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_student/entity/StuExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_student/entity/StuExport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_student/entity/StuParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_student/mapper/SchoolStudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_student/service/SchoolStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/school_student/service/impl/SchoolStudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/select_bed/controller/StuBedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/select_bed/entity/ChangeStu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/select_bed/entity/StuBed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/select_bed/entity/StuBedVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/select_bed/mapper/StuBedMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/select_bed/service/StuBedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/select_bed/service/impl/StuBedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/stu_role/entity/StuRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/stu_role/mapper/StuRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/stu_role/service/StuRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/stu_role/service/impl/StuRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_login/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_login/entity/LoginParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_login/entity/LoginResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_login/entity/RouterVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_login/entity/UpdatePasswordParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_login/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_menu/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_menu/entity/MakeTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_menu/entity/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_menu/mapper/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_menu/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_menu/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_notice/controller/SysNoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_notice/entity/NoticeParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_notice/entity/SysNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_notice/mapper/SysNoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_notice/service/SysNoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_notice/service/impl/SysNoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/entity/AssignParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/entity/AssignVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/entity/RoleParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/entity/SaveRoleParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/entity/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role_menu/entity/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role_menu/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role_menu/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_role_menu/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user/controller/SysHomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user/entity/PageParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user/entity/TotalVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user_role/entity/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user_role/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user_role/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_user_role/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/ApplyChangeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/AssignBedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/DromBuildMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/DromIntoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/DromLeaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/DromLookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/DromRepairMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/DromRoomBedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/DromRoomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/DromStoreyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SchoolClassMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SchoolCollageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SchoolMajorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SchoolStudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/StuBedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/StuRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SysNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/src/main/resources/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/BookApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/config/imagecode/ImageConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/config/jwt/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/config/mybatis/MyBatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/config/web/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/exception_advice/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/exception_advice/BusinessExceptionEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/exception_advice/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/controller/ApplyChangeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/entity/ApplyChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/entity/ApplyDoParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/entity/ApplyListParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/entity/ApplyParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/entity/StuInfoVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/mapper/ApplyChangeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/service/ApplyChangeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/apply_change/service/impl/ApplyChangeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/controller/AssignBedController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/entity/AssignBed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/entity/BedVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/entity/ClearBed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/entity/RoomVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/entity/SelectBed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/entity/SelectRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/mapper/AssignBedMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/service/AssignBedService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/assign_bed/service/impl/AssignBedServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_build/controller/DromBuildController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_build/entity/BuildEcharts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_build/entity/BuildParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_build/entity/BuildVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_build/entity/DromBuild.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_build/mapper/DromBuildMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_build/service/DromBuildService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_build/service/impl/DromBuildServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_into/controller/DromIntoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_into/entity/DromInto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_into/entity/DromIntoParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_into/mapper/DromIntoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_into/service/DromIntoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_into/service/impl/DromIntoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_leave/controller/DromLeaveController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_leave/entity/DromLeave.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_leave/entity/LeaveParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_leave/mapper/DromLeaveMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_leave/service/DromLeaveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_leave/service/impl/DromLeaveServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_look/controller/DromLookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_look/entity/DromLook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_look/entity/LookParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_look/mapper/DromLookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_look/service/DromLookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_look/service/impl/DromLookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_repair/controller/DromRepairController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_repair/entity/DromRepair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_repair/entity/RepairParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_repair/mapper/DromRepairMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_repair/service/DromRepairService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_repair/service/impl/DromRepairServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room/controller/DromRoomController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room/entity/DromRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room/entity/RoomListParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room/entity/RoomParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room/entity/RoomTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room/mapper/DromRoomMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room/service/DromRoomService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room/service/impl/DromRoomServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room_bed/controller/DromRoomBedController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room_bed/entity/DromRoomBed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room_bed/entity/DromRoomVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room_bed/mapper/DromRoomBedMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room_bed/service/DromRoomBedService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_room_bed/service/impl/DromRoomBedServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_storey/controller/DromStoreyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_storey/entity/DromStorey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_storey/mapper/DromStoreyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_storey/service/DromStoreyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/drom_storey/service/impl/DromStoreyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_class/controller/SchoolClassController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_class/entity/AssignClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_class/entity/AssignClassParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_class/entity/ListParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_class/entity/SchoolClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_class/mapper/SchoolClassMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_class/service/SchoolClassService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_class/service/impl/SchoolClassServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_collage/controller/SchoolCollageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_collage/entity/ListParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_collage/entity/SchoolCollage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_collage/mapper/SchoolCollageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_collage/service/SchoolCollageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_collage/service/impl/SchoolCollageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_major/controller/SchoolMajorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_major/entity/MajorList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_major/entity/SchoolMajor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_major/mapper/SchoolMajorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_major/service/SchoolMajorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_major/service/impl/SchoolMajorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_student/controller/SchoolStudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_student/entity/SchoolStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_student/entity/StuExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_student/entity/StuExport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_student/entity/StuParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_student/mapper/SchoolStudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_student/service/SchoolStudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/school_student/service/impl/SchoolStudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/select_bed/controller/StuBedController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/select_bed/entity/ChangeStu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/select_bed/entity/StuBed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/select_bed/entity/StuBedVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/select_bed/mapper/StuBedMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/select_bed/service/StuBedService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/select_bed/service/impl/StuBedServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/stu_role/entity/StuRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/stu_role/mapper/StuRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/stu_role/service/StuRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/stu_role/service/impl/StuRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_login/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_login/entity/LoginParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_login/entity/LoginResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_login/entity/RouterVO$Meta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_login/entity/RouterVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_login/entity/UpdatePasswordParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_login/entity/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_menu/controller/SysMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_menu/entity/MakeTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_menu/entity/SysMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_menu/mapper/SysMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_menu/service/SysMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_menu/service/impl/SysMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_notice/controller/SysNoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_notice/entity/NoticeParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_notice/entity/SysNotice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_notice/mapper/SysNoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_notice/service/SysNoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_notice/service/impl/SysNoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/controller/SysRoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/entity/AssignParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/entity/AssignVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/entity/RoleParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/entity/SaveRoleParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/entity/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/service/SysRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role_menu/entity/SysRoleMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role_menu/mapper/SysRoleMenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role_menu/service/SysRoleMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_role_menu/service/impl/SysRoleMenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user/controller/SysHomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user/controller/SysUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user/entity/PageParm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user/entity/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user/entity/TotalVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user_role/entity/SysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user_role/mapper/SysUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user_role/service/SysUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/com/itwt/web/sys_user_role/service/impl/SysUserRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/ApplyChangeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/AssignBedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/DromBuildMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/DromIntoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/DromLeaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/DromLookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/DromRepairMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/DromRoomBedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/DromRoomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/DromStoreyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SchoolClassMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SchoolCollageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SchoolMajorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SchoolStudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/StuBedMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/StuRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SysNoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/classes/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itwt-base-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\StudyWork\apache-maven-3.5.4\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../StudyWork/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\StudyWork\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2PoOdJdx7cfUOnLYjpR6xNRtqKT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/Sturoom",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "bbf26ad97a5ba65f8f31125d0795cfcd"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itwt.web.drom_room.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sturoom\Backend\itwt-base-parent\itwt-base-web\src\main\java\com\itwt\web\sys_notice" />
+      <recent name="D:\Sturoom\Backend\itwt-base-parent\itwt-base-web\src\main\java\com\itwt\web\drom_look" />
+      <recent name="D:\Sturoom\Backend\itwt-base-parent\itwt-base-web\src\main\java\com\itwt\web\drom_into" />
+      <recent name="D:\Sturoom\Backend\itwt-base-parent\itwt-base-web\src\main\java\com\itwt\web\drom_repair" />
+      <recent name="D:\Sturoom\Backend\itwt-base-parent\itwt-base-web\src\main\java\com\itwt\web\drom_leave" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itwt.utils" />
+      <recent name="com.itwt.web.sys_login.entity" />
+      <recent name="com.itwt.web.sys_user.entity" />
+      <recent name="com.itwt.web.drom_storey.entity" />
+      <recent name="com.itwt.web.school_major.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="itwt-base-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itwt.BookApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itwt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BookApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58a97cb2-aa50-4bd2-baa6-af8b066b0904" name="Changes" comment="" />
+      <created>1684120053410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684120053410</updated>
+      <workItem from="1684120054794" duration="14971000" />
+      <workItem from="1684234429478" duration="47242000" />
+      <workItem from="1684458479439" duration="13931000" />
+      <workItem from="1684503226603" duration="3849000" />
+      <workItem from="1684714419243" duration="27515000" />
+      <workItem from="1685059811958" duration="2797000" />
+      <workItem from="1685319094851" duration="12426000" />
+      <workItem from="1685375600593" duration="18855000" />
+      <workItem from="1685502160982" duration="15502000" />
+      <workItem from="1685686494412" duration="7514000" />
+      <workItem from="1685859775899" duration="1047000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
