@@ -83,7 +83,7 @@ public class SysNoticeController {
 //        });
         return ResultUtils.success("查询成功",list);
     }
-    //首页公告
+    //首页公告功能
     @GetMapping("/getTopList")
     public ResultVo getTopList(){
         QueryWrapper<SysNotice> query = new QueryWrapper<>();
