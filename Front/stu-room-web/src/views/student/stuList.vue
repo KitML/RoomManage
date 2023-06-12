@@ -40,7 +40,7 @@
             <el-select
               style="width: 100%"
               v-model="searchModel.classId"
-              placeholder="请选择专业"
+              placeholder="请选择班级"
             >
               <el-option
                 v-for="item in searchClassList"
