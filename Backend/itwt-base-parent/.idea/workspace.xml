@@ -4,314 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a97cb2-aa50-4bd2-baa6-af8b066b0904" name="Changes" comment="第二次上传">
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/.env.staging" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/README-zh.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/build/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/mock/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/mock/mock-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/mock/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/mock/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/mock/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/college.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/into.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/leave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/look.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/major.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/mybed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/notice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/repair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/role.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/setAssign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/setCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/student.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/assets/404_images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/assets/404_images/404_cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/assets/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/assets/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/assets/images/login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/components/Hamburger/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/components/SvgIcon/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/components/dialog/SysDialog.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/directive/permission/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/directive/permission/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/bed-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/bed-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/dashboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/example.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/eye-open.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/nested.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/password.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/tree.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svg/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/icons/svgo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/Sidebar/Item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/Sidebar/Link.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/TagsView/ScrollPane.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/TagsView/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/layout/mixin/ResizeHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/store/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/store/modules/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/store/modules/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/store/modules/tagsView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/store/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/styles/element-ui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/styles/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/styles/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/styles/transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/get-page-title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/myconfirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/objCoppy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/resetForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/colloge/classList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/colloge/collogeList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/colloge/majorList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/dashboard/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/drom/applyList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/drom/assignRoom.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/drom/buildCode.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/drom/buildList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/drom/houseList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/drom/myBed.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/drom/selectBed copy.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/drom/selectBed.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/form/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/into/things.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/into/user.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/leave/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/login/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/login/index copy.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/login/login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/nested/menu1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/nested/menu1/menu1-1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/nested/menu1/menu1-2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/nested/menu1/menu1-3/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/nested/menu2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/notice/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/repair/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/student/stuList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/system/sysMenuList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/system/sysRoleList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/system/sysUserList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/table/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/src/views/tree/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/tests/unit/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/tests/unit/components/Breadcrumb.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/tests/unit/components/Hamburger.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/tests/unit/utils/formatTime.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/tests/unit/utils/param2Obj.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/tests/unit/utils/parseTime.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/tests/unit/utils/validate.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Front/stu-room-web - 副本/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_notice/controller/SysNoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/itwt-base-web/src/main/java/com/itwt/web/sys_notice/controller/SysNoticeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/.env.development" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/.env.staging" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/README-zh.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/build/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/mock/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/mock/mock-server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/mock/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/mock/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/mock/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/college.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/into.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/leave.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/look.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/major.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/mybed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/notice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/repair.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/role.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/setAssign.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/setCode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/student.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/api/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/assets/404_images/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/assets/404_images/404_cloud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/assets/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/assets/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/assets/images/login_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/components/Breadcrumb/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/components/Hamburger/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/components/SvgIcon/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/components/dialog/SysDialog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/directive/permission/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/directive/permission/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/bed-active.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/bed-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/dashboard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/example.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/eye-open.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/eye.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/form.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/nested.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/password.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/table.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/tree.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svg/user.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/icons/svgo.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/AppMain.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/Navbar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/Sidebar/FixiOSBug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/Sidebar/Item.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/Sidebar/Link.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/Sidebar/Logo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/Sidebar/SidebarItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/Sidebar/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/TagsView/ScrollPane.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/TagsView/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/layout/mixin/ResizeHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/store/getters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/store/modules/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/store/modules/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/store/modules/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/store/modules/tagsView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/store/modules/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/styles/element-ui.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/styles/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/styles/mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/styles/sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/styles/transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/styles/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/get-page-title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/http.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/myconfirm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/objCoppy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/permission.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/resetForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/utils/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/404.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/colloge/classList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/colloge/collogeList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/colloge/majorList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/dashboard/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/drom/applyList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/drom/assignRoom.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/drom/buildCode.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/drom/buildList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/drom/houseList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/drom/myBed.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/drom/selectBed copy.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/drom/selectBed.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/form/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/into/things.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/into/user.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/leave/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/login/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/login/index copy.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/login/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/login/login_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/nested/menu1/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/nested/menu1/menu1-1/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/nested/menu1/menu1-2/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/nested/menu1/menu1-3/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/nested/menu2/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/notice/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/repair/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/student/stuList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/system/sysMenuList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/system/sysRoleList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/system/sysUserList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/table/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/tree/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/tests/unit/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/tests/unit/components/Breadcrumb.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/tests/unit/components/Hamburger.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/tests/unit/components/SvgIcon.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/tests/unit/utils/formatTime.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/tests/unit/utils/param2Obj.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/tests/unit/utils/parseTime.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/tests/unit/utils/validate.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/vue.config.js" beforeDir="false" />
+    <list default="true" id="58a97cb2-aa50-4bd2-baa6-af8b066b0904" name="Changes" comment="第三次上传">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,28 +54,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Sturoom",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "bbf26ad97a5ba65f8f31125d0795cfcd"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Sturoom&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bbf26ad97a5ba65f8f31125d0795cfcd&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.itwt.web.drom_room.controller" />
@@ -437,7 +133,8 @@
       <workItem from="1685375600593" duration="18855000" />
       <workItem from="1685502160982" duration="15502000" />
       <workItem from="1685686494412" duration="7514000" />
-      <workItem from="1685859775899" duration="1964000" />
+      <workItem from="1685859775899" duration="2412000" />
+      <workItem from="1686571048248" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传">
       <created>1685861197815</created>
@@ -446,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685861197815</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次上传">
+      <created>1685867299173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685867299173</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第三次上传">
+      <created>1685867546149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685867546149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次上传" />
     <MESSAGE value="第二次上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次上传" />
+    <MESSAGE value="第三次上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="第三次上传" />
   </component>
 </project>
