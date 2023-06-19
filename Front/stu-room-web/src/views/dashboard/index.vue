@@ -8,16 +8,18 @@
       justify="center"
       style="margin-bottom: 80px"
     >
+      
       <el-col :span="6">
         <div class="show-header" style="background: rgb(45, 183, 245)">
-          <div class="show-num">{{ stuCount }}</div>
-          <div class="bottom-text">学生总数</div>
-        </div>
-      </el-col>
-      <el-col :span="6">
-        <div class="show-header" style="background: rgb(237, 64, 20)">
           <div class="show-num">{{ classCount }}</div>
           <div class="bottom-text">班级总数</div>
+        </div>
+      </el-col>
+      
+      <el-col :span="6">
+        <div class="show-header" style="background: rgb(237, 64, 20)">
+          <div class="show-num">{{ stuCount }}</div>
+          <div class="bottom-text">学生总数</div>
         </div>
       </el-col>
       <el-col :span="6">
@@ -103,7 +105,7 @@ export default {
       // 指定图表的配置项和数据
       var option = {
         title: {
-          text: "学生统计",
+          text: "学生入住楼栋统计",
         },
         tooltip: {},
         legend: {
