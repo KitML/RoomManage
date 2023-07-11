@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58a97cb2-aa50-4bd2-baa6-af8b066b0904" name="Changes" comment="第四次上传">
+    <list default="true" id="58a97cb2-aa50-4bd2-baa6-af8b066b0904" name="Changes" comment="第五次上传">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../Front/stu-room-web/src/views/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itwt-base-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itwt-base-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/itwt-base-web/target/itwt-base-web-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +139,10 @@
       <workItem from="1686637958409" duration="632000" />
       <workItem from="1686640279550" duration="2265000" />
       <workItem from="1686645568989" duration="2120000" />
-      <workItem from="1687155434199" duration="1250000" />
+      <workItem from="1687155434199" duration="14735000" />
+      <workItem from="1687267190995" duration="782000" />
+      <workItem from="1687795546144" duration="541000" />
+      <workItem from="1689038644085" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传">
       <created>1685861197815</created>
@@ -174,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686573526824</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第五次上传">
+      <created>1687161163551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687161163551</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +208,7 @@
     <MESSAGE value="第二次上传" />
     <MESSAGE value="第三次上传" />
     <MESSAGE value="第四次上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="第四次上传" />
+    <MESSAGE value="第五次上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="第五次上传" />
   </component>
 </project>
